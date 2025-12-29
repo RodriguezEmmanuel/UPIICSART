@@ -1,11 +1,3 @@
-{
-	"BuildId": "33043543",
-	"Modules": 
-	{
-		"ReadyPlayerMe": "UnrealEditor-ReadyPlayerMe.dll",
-		"ReadyPlayerMeEditor": "UnrealEditor-ReadyPlayerMeEditor.dll",
-		"RpmAvatarCreator": "UnrealEditor-RpmAvatarCreator.dll",
-		"glTFRuntime": "UnrealEditor-glTFRuntime.dll",
-		"glTFRuntimeEditor": "UnrealEditor-glTFRuntimeEditor.dll"
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a5d7e1cf90282cc838c7e4e47b825f70ee5f5ea11ee7abd2bf99e21f0d7c1297
+size 342

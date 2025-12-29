@@ -1,13 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\rpmavatarcreator\\uht\\rpmavatarcreator.init.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpmavatarcreator\\definitions.rpmavatarcreator.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6dffb9e616713408ed87a6770a7ec848aed1787ba079478fbf396c376aed1be
+size 715

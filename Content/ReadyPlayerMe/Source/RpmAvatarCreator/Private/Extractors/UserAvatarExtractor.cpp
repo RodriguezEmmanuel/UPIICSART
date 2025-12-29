@@ -1,33 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-
-#include "UserAvatarExtractor.h"
-
-#include "DataJsonUtils.h"
-#include "Requests/Endpoints.h"
-#include "Templates/SharedPointer.h"
-
-namespace
-{
-	const FString JSON_FIELD_PARTNER = "partner";
-	const FString JSON_FIELD_ID = "id";
-}
-
-TArray<FRpmUserAvatar> FUserAvatarExtractor::ExtractUserAvatars(const FString& JsonString)
-{
-	const TArray<TSharedPtr<FJsonValue>> JsonArray = FDataJsonUtils::ExtractDataArray(JsonString);
-	TArray<FRpmUserAvatar> UserAvatars;
-	for (const auto& JsonValue : JsonArray)
-	{
-		const auto JsonObject = JsonValue->AsObject();
-		if (JsonObject->HasTypedField<EJson::String>(JSON_FIELD_PARTNER) && JsonObject->HasTypedField<EJson::String>(JSON_FIELD_ID))
-		{
-			FRpmUserAvatar UserAvatar;
-			UserAvatar.Partner = JsonObject->GetStringField(JSON_FIELD_PARTNER);
-			UserAvatar.Id = JsonObject->GetStringField(JSON_FIELD_ID);
-			UserAvatar.ImageUrl = FEndpoints::GetRenderEndpoint(UserAvatar.Id);
-			UserAvatars.Add(UserAvatar);
-		}
-	}
-	return UserAvatars;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4523c09f4d949169fa67e1c5e850ed82eb420d6f24d0af4ef1bf6b90d15d475b
+size 1018

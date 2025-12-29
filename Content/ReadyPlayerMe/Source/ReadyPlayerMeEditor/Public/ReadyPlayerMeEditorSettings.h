@@ -1,27 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Engine/DeveloperSettings.h"
-#include "ReadyPlayerMeEditorSettings.generated.h"
-
-UCLASS(config=EditorPerProjectUserSettings, meta = (DisplayName="Ready Player Me"))
-
-class READYPLAYERMEEDITOR_API UReadyPlayerMeEditorSettings : public UDeveloperSettings
-{
-	GENERATED_BODY()
-
-public:
-	UReadyPlayerMeEditorSettings();
-
-	UPROPERTY(Config, EditAnywhere, BlueprintReadOnly, Category = "Privacy")
-	bool bEnableAnalytics;
-
-	UPROPERTY(Config)
-	FString AnalyticsTarget;
-	
-#if WITH_EDITOR
-	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
-#endif
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a10bb993d398083c033fc890fe313f50ddcd16d90a668058447d11c26d64870
+size 666

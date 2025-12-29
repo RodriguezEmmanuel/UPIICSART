@@ -1,13 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\gltfruntime\\uht\\gltfruntime.init.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gltfruntime\\definitions.gltfruntime.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9744f17f9da2dc2dc5b1ca7583bfa86da3d2bf05a992a562fafd5e377c362d6
+size 695

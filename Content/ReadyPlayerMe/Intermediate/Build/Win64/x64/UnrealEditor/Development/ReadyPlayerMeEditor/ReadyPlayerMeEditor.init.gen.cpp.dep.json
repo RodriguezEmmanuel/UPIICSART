@@ -1,13 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\readyplayermeeditor\\uht\\readyplayermeeditor.init.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\readyplayermeeditor\\definitions.readyplayermeeditor.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:70a91845c8b4e39d4c36a92e31ff9711aac2c1ac41e311c0d2a1684d29aa364d
+size 727

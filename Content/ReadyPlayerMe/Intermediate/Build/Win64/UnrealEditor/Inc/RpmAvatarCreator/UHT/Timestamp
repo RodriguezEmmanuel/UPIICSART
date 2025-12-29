@@ -1,12 +1,3 @@
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\RpmAvatarCreatorApi.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\RpmAvatarCreatorFunctionLibrary.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\RpmAvatarCreatorTypes.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\RpmUserDataSaveGame.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmAssetButtonUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmAvatarEditorUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmColorButtonUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmIconUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmTemplateButtonUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Public\UI\RpmBadgeIconUI.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Private\Downloaders\RpmAvatarRequestHandler.h
-D:\UE Projects\UE5.4\Blank_54\Plugins\ReadyPlayerMe\Source\RpmAvatarCreator\Private\Downloaders\RpmImageDownloader.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:e778ecea898d5a315dd62a425270ee9f31cb838c87b69aefb37b8e16baf3e68e
+size 1310

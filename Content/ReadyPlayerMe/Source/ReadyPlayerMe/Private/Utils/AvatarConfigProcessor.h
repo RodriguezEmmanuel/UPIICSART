@@ -1,11 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-
-class FAvatarConfigProcessor
-{
-public:
-	static FString Process(class UReadyPlayerMeAvatarConfig* AvatarConfig);
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e988c4322597859343a8a6e5ce0c486c0c8a734f73c8af4290323de89869f87
+size 193

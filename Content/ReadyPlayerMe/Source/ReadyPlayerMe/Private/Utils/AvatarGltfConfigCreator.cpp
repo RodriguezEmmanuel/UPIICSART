@@ -1,22 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-
-#include "AvatarGltfConfigCreator.h"
-
-void FAvatarGltfConfigCreator::OverrideConfig(FglTFRuntimeSkeletalMeshConfig& SkeletalMeshConfig, const FString& RootBoneName, USkeleton* Skeleton)
-{
-	SkeletalMeshConfig.MorphTargetsDuplicateStrategy = EglTFRuntimeMorphTargetsDuplicateStrategy::Merge;
-	SkeletalMeshConfig.bAddVirtualBones = true;
-	SkeletalMeshConfig.Skeleton = Skeleton;
-
-	SkeletalMeshConfig.SkeletonConfig.CopyRotationsFrom = Skeleton;
-	SkeletalMeshConfig.SkeletonConfig.bAddRootBone = true;
-	SkeletalMeshConfig.SkeletonConfig.RootBoneName = RootBoneName;
-}
-
-FglTFRuntimeConfig FAvatarGltfConfigCreator::GetGlTFRuntimeConfig()
-{
-	FglTFRuntimeConfig RuntimeConfig;
-	RuntimeConfig.TransformBaseType = EglTFRuntimeTransformBaseType::YForward;
-	return RuntimeConfig;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2718dfdf7cf8ea9b0290dbbee64095372fae5f2c5b0290ab28a23fd1f65e648f
+size 810

@@ -1,24 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Subsystems/GameInstanceSubsystem.h"
-#include "ReadyPlayerMeGameSubsystem.generated.h"
-
-UCLASS()
-class UReadyPlayerMeGameSubsystem : public UGameInstanceSubsystem
-{
-	GENERATED_BODY()
-
-public:
-	UReadyPlayerMeGameSubsystem();
-
-	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
-	virtual void Deinitialize() override;
-
-	UPROPERTY(BlueprintReadOnly, Category="Ready Player Me")
-	class UReadyPlayerMeMemoryCache* MemoryCache;
-
-	TSharedPtr<class FAvatarManifest> AvatarManifest;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:c506c41c9d302ecf8d4577c433fa6217302b441f95595917c8b257d2a4bce78d
+size 583

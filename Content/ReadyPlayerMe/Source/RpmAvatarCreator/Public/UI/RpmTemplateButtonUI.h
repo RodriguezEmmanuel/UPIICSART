@@ -1,29 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "RpmIconUI.h"
-#include "RpmAvatarCreatorTypes.h"
-#include "RpmTemplateButtonUI.generated.h"
-
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTemplateButtonSelected, const FRpmAvatarTemplate&, Template);
-
-UCLASS(Abstract)
-class RPMAVATARCREATOR_API URpmTemplateButtonUI : public URpmIconUI
-{
-	GENERATED_BODY()
-
-public:
-	UFUNCTION(BlueprintImplementableEvent, Category = "Ready Player Me", meta = (DisplayName = "Set Selected"))
-	void SetSelected(bool Selected);
-
-	UFUNCTION(BlueprintImplementableEvent, Category = "Ready Player Me", meta = (DisplayName = "Update UI"))
-	void UpdateUI();
-
-	UPROPERTY(BlueprintCallable, Category = "Ready Player Me")
-	FTemplateButtonSelected TemplateButtonSelected;
-
-	UPROPERTY(BlueprintReadWrite, Category = "Ready Player Me")
-	FRpmAvatarTemplate Template;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:36bed8cd80c833fe0e704b36704b3004fcf0b1aaf0c1d4ce68933544b0145705
+size 876

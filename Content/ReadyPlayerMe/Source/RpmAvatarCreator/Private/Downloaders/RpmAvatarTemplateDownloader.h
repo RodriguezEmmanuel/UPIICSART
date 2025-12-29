@@ -1,26 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "RpmAvatarCreatorTypes.h"
-
-class FRpmAvatarTemplateDownloader : public TSharedFromThis<FRpmAvatarTemplateDownloader>
-{
-public:
-	FRpmAvatarTemplateDownloader(TSharedPtr<class FRequestFactory> Factory, const EAvatarBodyType& BodyType);
-
-	void DownloadTemplates(const FAvatarTemplatesDownloadCompleted& DownloadCompleted, const FAvatarCreatorFailed& Failed);
-	TArray<FRpmAvatarTemplate> GetAvatarTemplates() const;
-
-private:
-	void OnTemplatesDownloadCompleted(bool bSuccess);
-
-	FAvatarTemplatesDownloadCompleted OnDownloadCompleted;
-	FAvatarCreatorFailed OnFailed;
-
-	TSharedPtr<class FRequestFactory> RequestFactory;
-	TArray<FRpmAvatarTemplate> AvatarTemplates;
-	TSharedPtr<class IBaseRequest> AvatarTemplatesRequest;
-	EAvatarBodyType AvatarBodyType;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:aab80dca3be20412f3ea077667583124da4516b6b413833cc5d28624458c1476
+size 839

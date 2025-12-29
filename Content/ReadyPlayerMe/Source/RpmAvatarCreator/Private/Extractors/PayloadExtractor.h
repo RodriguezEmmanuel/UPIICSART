@@ -1,26 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "RpmAvatarCreatorTypes.h"
-
-class FPayloadExtractor
-{
-public:
-	static EAvatarGender GetGenderFromString(const FString& GenderStr);
-
-	static FString GetStringFromGender(EAvatarGender Gender);
-
-	static FRpmAvatarProperties ExtractPayload(const FString& JsonString);
-	
-	static FString MakeCreatePayload(const FRpmAvatarProperties& AvatarProperties);
-
-	static FString MakeUpdatePayload(ERpmPartnerAssetType AssetType, const FString& AssetId);
-	
-	static FString MakeUpdatePayload(ERpmPartnerAssetColor AssetColor, int32 ColorId);
-
-	static FString MakeUpdatePayload(const TSharedPtr<class FJsonObject> AssetsObject);
-
-	static FString MakePrecompilePayload(ERpmPartnerAssetType PrecompileAssetType, const TArray<FRpmPartnerAsset>& FilteredAssets);
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:24720fc5e00b7d7cf41239dde9ff05e43809837e2e704318795cd3ae54b96062
+size 831

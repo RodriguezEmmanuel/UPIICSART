@@ -1,34 +1,3 @@
-// Copyright 2020-2022, Roberto De Ioris.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Sound/SoundWave.h"
-#include "glTFRuntimeSoundWave.generated.h"
-
-/**
- * 
- */
-UCLASS()
-class GLTFRUNTIME_API UglTFRuntimeSoundWave : public USoundWave
-{
-	GENERATED_BODY()
-
-public:
-	UglTFRuntimeSoundWave();
-
-	virtual int32 GeneratePCMData(uint8* PCMData, const int32 SamplesNeeded) override;
-	virtual bool HasCompressedData(FName Format, ITargetPlatform* TargetPlatform) const override { return false; }
-
-	virtual void SetRuntimeAudioData(const uint8* AudioData, const int64 AudioDataSize)
-	{
-		RuntimeAudioData.Empty();
-		RuntimeAudioData.Append(AudioData, AudioDataSize);
-		RuntimeAudioOffset = 0;
-	}
-
-protected:
-	TArray64<uint8> RuntimeAudioData;
-	int64 RuntimeAudioOffset;
-	
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d00be54fad610120cde2431cec250a9764d747b92bd22f9595106d7e9f8ad42
+size 771

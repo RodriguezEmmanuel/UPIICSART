@@ -1,20 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "ReadyPlayerMeTypes.h"
-
-class FAvatarUrlConvertor
-{
-public:
-	static FString GetValidatedUrl(const FString& IdUrl);
-
-	static bool IsUrl(const FString& Url);
-
-	static bool IsId(const FString& Id);
-	
-	static FString GetAvatarId(const FString& IdUrl);
-
-	static FAvatarUri CreateAvatarUri(const FString& Url, class UReadyPlayerMeAvatarConfig* AvatarConfig = nullptr, class UReadyPlayerMeAutoLodConfig* AutoLodConfig = nullptr);
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfbd6048d35ed84085d3b024eb3faec828ac92e2c8ea41b73258a5aaa8655812
+size 512

@@ -1,29 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-/*===========================================================================
-	Generated code exported from UnrealHeaderTool.
-	DO NOT modify this manually! Edit the corresponding .h files instead!
-===========================================================================*/
-
-#include "UObject/GeneratedCppIncludes.h"
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-void EmptyLinkFunctionForGeneratedCodeglTFRuntimeEditor_init() {}
-	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_glTFRuntimeEditor;
-	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_glTFRuntimeEditor()
-	{
-		if (!Z_Registration_Info_UPackage__Script_glTFRuntimeEditor.OuterSingleton)
-		{
-			static const UECodeGen_Private::FPackageParams PackageParams = {
-				"/Script/glTFRuntimeEditor",
-				nullptr,
-				0,
-				PKG_CompiledIn | 0x00000040,
-				0xE0DF6DB5,
-				0xC594E58D,
-				METADATA_PARAMS(0, nullptr)
-			};
-			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_glTFRuntimeEditor.OuterSingleton, PackageParams);
-		}
-		return Z_Registration_Info_UPackage__Script_glTFRuntimeEditor.OuterSingleton;
-	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_glTFRuntimeEditor(Z_Construct_UPackage__Script_glTFRuntimeEditor, TEXT("/Script/glTFRuntimeEditor"), Z_Registration_Info_UPackage__Script_glTFRuntimeEditor, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xE0DF6DB5, 0xC594E58D));
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a334c335952a1dd142da2b903a5aca88c8e78e2ce7d0f556a68c9b125d7ba20
+size 1535

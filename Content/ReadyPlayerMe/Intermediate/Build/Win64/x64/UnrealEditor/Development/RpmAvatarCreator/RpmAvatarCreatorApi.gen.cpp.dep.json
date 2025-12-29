@@ -1,25 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\rpmavatarcreator\\uht\\rpmavatarcreatorapi.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpmavatarcreator\\definitions.rpmavatarcreator.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\public\\rpmavatarcreatorapi.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\public\\rpmavatarcreatortypes.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\readyplayerme\\public\\readyplayermetypes.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\readyplayerme\\uht\\readyplayermetypes.generated.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\rpmavatarcreator\\uht\\rpmavatarcreatortypes.generated.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\rpmavatarcreator\\uht\\rpmavatarcreatorapi.generated.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:10c39418f91d38db2d58a8ed4a009ab274dd2acd80f47a75bed8d1a7d92b7c81
+size 2446

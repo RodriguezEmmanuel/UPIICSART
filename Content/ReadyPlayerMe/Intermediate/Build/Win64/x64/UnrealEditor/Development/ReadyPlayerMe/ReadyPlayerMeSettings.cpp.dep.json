@@ -1,21 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\readyplayerme\\private\\readyplayermesettings.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\readyplayerme\\definitions.readyplayerme.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\readyplayerme\\public\\readyplayermesettings.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
-            "d:\\software\\unrealengine\\ue_5.4\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\readyplayerme\\uht\\readyplayermesettings.generated.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7780d081d552bac025bea2901eaa9fb3bd7f31129661fbbef42f09591196394
+size 1790

@@ -1,23 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "HttpModule.h"
-#include "Interfaces/IHttpRequest.h"
-#include "Interfaces/IHttpResponse.h"
-
-class FAvatarRequestCreator
-{
-public:
-	static auto MakeHttpRequest(const FString& Url, float Timeout = -1.f)
-	{
-		TSharedRef<IHttpRequest, ESPMode::ThreadSafe> HttpRequest = FHttpModule::Get().CreateRequest();
-		if (Timeout > 0.f)
-		{
-			HttpRequest->SetTimeout(Timeout);
-		}
-		HttpRequest->SetURL(Url);
-		return HttpRequest;
-	}
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:7beb59c17995a4be75aa6951b575d91ca4d82426264cf838cda81c197541c94a
+size 509

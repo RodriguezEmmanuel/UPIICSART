@@ -1,15 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Modules/ModuleManager.h"
-
-class FReadyPlayerMeModule : public IModuleInterface
-{
-public:
-
-	/** IModuleInterface implementation */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:77ffb38ce12b103f83697e729e80fea92287e1700018c6aa10d64e42f589703e
+size 301

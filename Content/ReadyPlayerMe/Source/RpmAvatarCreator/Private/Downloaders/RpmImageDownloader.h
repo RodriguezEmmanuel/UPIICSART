@@ -1,31 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "RpmAvatarCreatorTypes.h"
-#include "RpmImageDownloader.generated.h"
-
-UCLASS()
-class URpmImageDownloader : public UObject
-{
-	GENERATED_BODY()
-
-public:
-	void DownloadImage(const FString& ImageUrl, int32 Size, const FImageDownloadCompleted& ImageDownloaded);
-
-	void SetRequestFactory(TSharedPtr<class FRequestFactory> Factory);
-
-	void RemoveImage(const FString& ImageUrl);
-
-private:
-	void OnImageDownloadCompleted(bool bSuccess, FString ImageUrl);
-
-	UPROPERTY()
-	TMap<FString, UTexture2D*> ImageMap;
-
-	TSharedPtr<class FRequestFactory> RequestFactory;
-	TMap<FString, TSharedPtr<class IBaseRequest>> ImageRequests;
-	TMap<FString, TArray<FImageDownloadCompleted>> RequestCallbacks;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:b53fcfc6482d6bb9d3f4625fbe3f81854a435e9d4977832c44f9e4aacb38b8a0
+size 803

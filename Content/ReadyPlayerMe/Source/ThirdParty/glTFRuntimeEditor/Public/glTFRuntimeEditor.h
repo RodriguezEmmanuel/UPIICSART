@@ -1,22 +1,3 @@
-// Copyright 2020, Roberto De Ioris.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Modules/ModuleManager.h"
-#include "UObject/StrongObjectPtr.h"
-
-class FglTFRuntimeEditorModule : public IModuleInterface
-{
-public:
-
-	/** IModuleInterface implementation */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
-
-	void BuildglTFRuntimeMenu(class FMenuBuilder& Builder);
-	void SpawnglTFRuntimeActor();
-	void SpawnglTFRuntimeActorFromClipboard();
-
-	TStrongObjectPtr<class UglTFRuntimeEditorDelegates> glTFRuntimeEditorDelegates;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:46702938e78b2215450198af58c62f458309fd62fc628de85ce867b33f955d72
+size 557

@@ -1,27 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "RpmAvatarCreatorTypes.h"
-
-class FRpmColorDownloader : public TSharedFromThis<FRpmColorDownloader>
-{
-public:
-	FRpmColorDownloader(TSharedPtr<class FRequestFactory> RequestFactory);
-
-	void DownloadColors(const FString& AvatarId);
-	TArray<FRpmColorPalette> GetColors() const;
-
-	FBaseRequestCompleted& GetCompleteCallback();
-
-private:
-	void DownloadCompleted(bool bSuccess);
-
-	FBaseRequestCompleted OnColorDownloadCompleted;
-
-private:
-	TSharedPtr<class FRequestFactory> RequestFactory;
-	TArray<FRpmColorPalette> Colors;
-	TSharedPtr<class IBaseRequest> ColorRequest;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2664b602e5392687aa2fc7f3b6dd69d615547d6734e347bb09d9857dcce6f7d
+size 654

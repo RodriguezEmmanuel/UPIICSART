@@ -1,30 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Interfaces/IHttpRequest.h"
-
-DECLARE_DELEGATE_OneParam(FFileDownloadCompleted, bool /*bSuccess*/);
-
-class FAvatarRequest : public TSharedFromThis<FAvatarRequest>
-{
-public:
-	void Download(const FString& Url, float Timeout = -1.f);
-
-	void CancelRequest();
-
-	FFileDownloadCompleted& GetCompleteCallback();
-
-	const TArray<uint8>& GetContent() const;
-	
-	FString GetContentAsString() const;
-
-private:
-	void OnReceived(FHttpRequestPtr Request, FHttpResponsePtr Response, bool bSuccess);
-
-	FFileDownloadCompleted OnDownloadCompleted;
-
-protected:
-	TSharedPtr<IHttpRequest, ESPMode::ThreadSafe> DownloadRequest;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bffb4aa0128e43ed9b8dc9e4d8eb2534e4010fcf148de2e8861267947c2032e
+size 691

@@ -1,20 +1,3 @@
-{
-    "Version": "1.2",
-    "Data": {
-        "Source": "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\private\\extractors\\avatartemplateextractor.cpp",
-        "ProvidedModule": "",
-        "PCH": "d:\\ue projects\\ue5.4\\blank_54\\intermediate\\build\\win64\\x64\\blank_54editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rpmavatarcreator\\definitions.rpmavatarcreator.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\private\\extractors\\avatartemplateextractor.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\public\\rpmavatarcreatortypes.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\readyplayerme\\public\\readyplayermetypes.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\readyplayerme\\uht\\readyplayermetypes.generated.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\intermediate\\build\\win64\\unrealeditor\\inc\\rpmavatarcreator\\uht\\rpmavatarcreatortypes.generated.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\private\\extractors\\datajsonutils.h",
-            "d:\\ue projects\\ue5.4\\blank_54\\plugins\\readyplayerme\\source\\rpmavatarcreator\\private\\extractors\\payloadextractor.h"
-        ],
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b16742445a83468086a2fb9016047c3841f50d10f3e704fcc2110a184963ce90
+size 1722

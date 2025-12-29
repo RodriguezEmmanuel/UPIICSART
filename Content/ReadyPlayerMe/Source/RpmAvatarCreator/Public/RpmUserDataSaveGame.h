@@ -1,18 +1,3 @@
-// Copyright © 2023++ Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/SaveGame.h"
-#include "RpmAvatarCreatorTypes.h"
-#include "RpmUserDataSaveGame.generated.h"
-
-UCLASS()
-class RPMAVATARCREATOR_API URpmUserDataSaveGame : public USaveGame
-{
-	GENERATED_BODY()
-
-public:
-	UPROPERTY(VisibleAnywhere, Category = "Ready Player Me")
-	FRpmUserData UserData;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:47e897d31e1c2f0cea557c9df6f5fd1dff1a3058e22bf3ff0f24fa0426123baf
+size 384

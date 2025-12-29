@@ -1,21 +1,3 @@
-// Copyright © 2024 Ready Player Me
-#pragma once
-
-#include "ReadyPlayerMeEditorTypes.generated.h"
-
-UENUM(BlueprintType)
-enum class ERpmAnalyticsEventType : uint8
-{
-	OpenProject UMETA(DisplayName = "Open Project"),
-	CloseProject UMETA(DisplayName = "Close Project"),
-	EnableCaching UMETA(DisplayName = "Enable Caching"),
-	SetUserProperties UMETA(DisplayName = "Set User Properties"),
-	AllowLogging UMETA(DisplayName = "Allow Logging"),
-	OpenIntegrationGuide UMETA(DisplayName = "Open Integration Guide"),
-	LoadQuickStartScene UMETA(DisplayName = "Load Quick Start Scene"),
-	OpenAvatarDocumentation UMETA(DisplayName = "Open Avatar Documentation"),
-	OpenSamplesDocumentation UMETA(DisplayName = "Open Samples Documentation"),
-	OpenAnimationDocumentation UMETA(DisplayName = "Open Animation Documentation"),
-	OpenAvatarCreatorDocumentation UMETA(DisplayName = "Open Avatar Creator Documentation"),
-	ViewPrivacyPolicy UMETA(DisplayName = "View Privacy Policy"),
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0519f8ffd2ba8d47a49546328e188ddfc01c57024e965b191b53cea32420364
+size 962

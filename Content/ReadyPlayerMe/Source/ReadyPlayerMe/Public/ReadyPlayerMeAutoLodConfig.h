@@ -1,25 +1,3 @@
-// Copyright © 2024 Ready Player Me
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "Engine/DataAsset.h"
-#include "ReadyPlayerMeAutoLodConfig.generated.h"
-
-/**
- * Base data asset class that provides configuration for the avatar loader.
- * For customization create a blueprint data asset subclass. 
- */
-UCLASS(BlueprintType)
-class READYPLAYERME_API UReadyPlayerMeAutoLodConfig : public UDataAsset
-{
-	GENERATED_BODY()
-
-public:
-	/** Provides ability to select the texture channels that need to be included in the avatar */
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ready Player Me")
-	TArray<class UReadyPlayerMeAvatarConfig*> AutoLodConfigs;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ready Player Me")
-	TArray<float> LODScreenSizes;
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e92dc7f4f1cc7c04df47c96dbaa2d72718280124c284197a4137f9d37bac1c9
+size 766
